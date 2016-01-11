@@ -1,12 +1,31 @@
 body {
-    color: white;
+    margin: 0px;
     background: black;
 }
 
 .navigation {
+    float: left;
+    width: 20%;
+    height: 100%;
     background: green;
 }
 
 #container {
     background: red;
+    width: 60%;
+    height: 1000px;
 }
+    #header {
+        font-size: 400%;
+    }
+    #logo {
+        float: right;
+        max-width: 12%;
+    }
+    #links {
+        background: white;
+    }
+    #footer {
+        background: blue;
+    }
+    
